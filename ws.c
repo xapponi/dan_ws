@@ -72,6 +72,22 @@ int main(int argc, char* argv[]){
 	}
 	
 	
+/*
+To Do: 
+Make sure the words dont go outside the grid
+	startx can never be > than COL
+	starty can never be > than ROW
+Make sure the words to not overwrite other words, but allow them to overlap
+	Hint: test with grid size of 3x3, and use input3.txt
+Allow the spaces to be filled in with random letters: wait till end to do this
+
+
+
+
+
+
+*/
+	
 	
 	//print grid
 	for(i=0; i<ROW;++i){
